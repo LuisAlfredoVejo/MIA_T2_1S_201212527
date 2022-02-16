@@ -1,10 +1,19 @@
 #include <iostream>
 #include <stdlib.h>
+#include <time.h>
 
 using namespace std;
 
 string entrada;
 string ruta;
+
+typedef struct mbr
+{
+    int mbr_tamano;
+    time_t mbr_fecha_creacion;
+    int mbr_dsk_signature;
+};
+
 
 void exec (string entrada){
     
